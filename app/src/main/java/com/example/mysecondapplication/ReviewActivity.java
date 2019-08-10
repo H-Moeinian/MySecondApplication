@@ -41,7 +41,7 @@ public class ReviewActivity extends AppCompatActivity {
         Age.setText("Age: "+AgeString);
 
         final String AddressString = i.getStringExtra("Address");
-        Address.setText("Address: "+gitAddressString);
+        Address.setText("Address: "+AddressString);
 
         btnEdit.setOnClickListener(new View.OnClickListener() {
             @Override
