@@ -29,19 +29,19 @@ public class ReviewActivity extends AppCompatActivity {
         Intent i = getIntent();
 
         final String FirstNameString = i.getStringExtra("FirstName");
-        FirstName.setText(FirstNameString);
+        FirstName.setText("Name: "+FirstNameString);
 
         final String FamilyString = i.getStringExtra("Family");
-        Family.setText(FamilyString);
+        Family.setText("Family Name: "+FamilyString);
 
         final String PhoneString = i.getStringExtra("Phone");
-        Phone.setText(PhoneString);
+        Phone.setText("Phone number: "+PhoneString);
 
         final String AgeString = i.getStringExtra("Age");
-        Age.setText(AgeString);
+        Age.setText("Age: "+AgeString);
 
         final String AddressString = i.getStringExtra("Address");
-        Address.setText(AddressString);
+        Address.setText("Address: "+gitAddressString);
 
         btnEdit.setOnClickListener(new View.OnClickListener() {
             @Override
